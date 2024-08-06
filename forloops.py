@@ -1,8 +1,14 @@
-numbers = [1,2,3,4,5]
-for item in numbers:
-    print (item)
+for number in range(3):
+    print("Attempt")
 
-i=0
-while i<=(len(numbers)):
-    print(numbers[i])
-    i=i+1    
+for number in range(3):
+    print("Attempt",number)
+
+for number in range(3):
+    print("Attempt",number+1,(number+1) * ".")
+
+for number in range(1,4):
+    print("Attempt",number,(number) * ".")
+
+for number in range(1,10,2):
+    print("Attempt",number,(number) * ".")
